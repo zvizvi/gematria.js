@@ -33,10 +33,8 @@ gematria = function(txt) {
 
 
 	var getLetterWeight = function(letter) {
-		var weight = letterWeight[letter];
-		if (weight < 1) {
-			weight = 0;
-		} else if (weight > 400) {
+		var weight = letterWeight[letter] || 0;
+		if (weight > 400) {
 			weight = weight - 400;
 		}
 		return weight;
