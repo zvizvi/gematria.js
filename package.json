@@ -1,0 +1,20 @@
+{
+	"name": "gematria.js",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zvizvi/gematria.js.git"
+	},
+	"author": "zvizvi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zvizvi/gematria.js/issues"
+	},
+	"homepage": "https://g
+	ithub.com / zvizvi / gematria.js# readme "
+}
